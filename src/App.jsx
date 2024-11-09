@@ -1,12 +1,16 @@
-import './App.css'
+import "./App.css";
+import Login from "./components/Login";
+import Logout from "./components/Logout";
+import Signup from "./components/Signup";
 
 function App() {
-
   return (
     <>
-      <h1>Hi, EveryOne</h1>
+      {/* <Signup /> */}
+      {/* <Login /> */}
+      <Logout />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
